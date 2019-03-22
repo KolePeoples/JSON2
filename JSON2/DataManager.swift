@@ -11,7 +11,17 @@ import UIKit
 class DataManager: NSObject {
 
         let MYJSONURL = "https://api.myjson.com/bins/1e5uji"
-
+    
+        var dataArray = ["Nothing yet"]
+    
+    func getData(completion: @escaping (_ success: Data()) -> ()) {
+        var success = Data()
+        
+        let actualURL = URL(string: MYJSONURL)
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
